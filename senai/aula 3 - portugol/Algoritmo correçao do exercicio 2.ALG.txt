@@ -1,0 +1,17 @@
+Algoritmo "correçao do exercicio 2= 05/02/26"
+
+Var
+cotacao , dolar , reall : real
+
+
+
+Inicio
+escreval("digite a cotacao atual * DOLAR")
+leia (cotacao)
+escreval ("digite o valor DOLAR:")
+leia(dolar)
+ 
+ reall<- dolar * cotacao
+ 
+ escreval("o valor em reais e ", reall)
+Fimalgoritmo
