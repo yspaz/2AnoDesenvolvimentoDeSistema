@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   ;
+}
+
+:root{
+--corPrimaria: #f9faaf;
+--corLink : #fc7bbb;
+--corSecundaria: hsl(0, 0%, 0%);
+--corTexto : #71ff90;
+}
+
+header{
+     width: 100%;
+     padding: 10px 0%;
+     background-color: var(--corPrimaria);
+
+}
+#botaoAnima{
+    padding: 5px;
+    margin: 10px;
+    background-color:var(--corPrimaria) ;
+}
