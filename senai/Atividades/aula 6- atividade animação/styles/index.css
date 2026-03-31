@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes teste {
+    0%{
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+    }
+    90%{
+        margin-left: 900px;
+    }
+}
+
+#patofeio{
+    width: 200px;
+    height: 200px;
+    animation-name: teste;
+    animation-duration: 5s;
+}
