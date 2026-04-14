@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Roboto";
 }
 
 body{
@@ -61,4 +62,7 @@ form{
     border-radius: 4px;
     box-shadow: 5px 5px 10px rgb(255, 234, 139);
     background-color: rgb(240, 139, 173); color: aliceblue;
+}
+.tabela{
+    font-family: "Roboto";
 }
