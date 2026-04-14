@@ -1,6 +1,34 @@
-    *{ 
+@font-face{
+font-family:starborn ;
+src:url('../fonts/starborn/Starborn.otf')
+}
+
+@font-face {
+  font-family: snoopy;
+  src: url('../fonts/snoopy/Snoopy.otf');
+}
+
+@font-face {
+  font-family: snoopy_dings;
+  src: url('../fonts/snoopy_dings/Snoopy_Dings.ttf');
+}
+/* @font- */
+
+
+*{ 
       padding: 0%;
       margin: 0%;
 
 
     }
+    :root{
+      --fontePrimaria : starborn;
+      --fontSecundaria : snoopy;
+    }
+
+    h1{
+      font-family: var(--fontePrimaria);
+    }
+     p{
+      font-family: "roboto";
+     }
