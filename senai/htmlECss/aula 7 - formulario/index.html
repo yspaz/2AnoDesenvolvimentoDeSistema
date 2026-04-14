@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fonte</title>
+    <title>Salário Família</title>
     <link rel="stylesheet" href="styles/index.css">
- <!-- ANIMATE CSS-->
- 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-<!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
-
 </head>
 
-
 <body>
-    <h1>TITULO</h1>\
-    <h3>subtitulo</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatibus itaque ipsam ducimus aut tempora, consectetur soluta vel. Quibusdam provident molestiae, perspiciatis voluptatem vero omnis corporis saepe quos iure veniam.
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae perspiciatis sunt dolores distinctio natus iure tenetur libero ea repellat quibusdam nemo dolor nam quae maiores, odio ipsa quidem optio?</p>
+    <form action="#">
+        <img src="images/salario-familia.jpg" alt="Previdência">
+        <h1>Salário Família</h1>
+        <div class="SalF">
+            <label for="nome">Nome : </label>
+            <input id="nome" required type="text" placeholder="Exemplo : João">
+        </div>
+        <div class="SalF">
+            <label for="salário">Número de filhos : </label>
+            <input id="salario" required type="number" placeholder="Exemplo : 2 Filhos">
+        </div>
+        <div class="SalF">
+            <label for="salário">salário Contribuição : </label>
+            <input id="salario" required type="number" placeholder="Exemplo : 1.621,00">
+        </div>
+
+       
+        <div id="valores">
+            <div class="divE">
+                <div class="tabela">Salário-contribuição</div>
+                <div class="tabela">Até R$ 806,80</div>
+                <div class="tabela">Entre R$806,81 e R$1.212,64</div>
+                <div class="tabela">Mais de R$1.212,64</div>
+            </div>
+
+            <div class="divD">
+                <div class="tabela">Cota do Salário Família</div>
+                <div class="tabela">R$41,37 por filho</div>
+                <div class="tabela">R$29,16 por filho</div>
+                <div class="tabela">Não há</div>
+            </div>
+        </div>
+        <div>
+            <button id="btn-calcula" type="submit">Calcular</button>
+        </div>
+    </form>
 </body>
-</html>
+
+</html
