@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#icone{
+    width: 300px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+ background-image: url(../images/FUNDOFEIXE\ EDIT.jpg);
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+h1{
+    color: rgb(0, 96, 223);
+}
