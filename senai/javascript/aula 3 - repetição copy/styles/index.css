@@ -1,0 +1,46 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: url("https://us.123rf.com/450wm/lublubachka/lublubachka1506/lublubachka150600354/41643763-doces-e-panifica%C3%A7%C3%A3o-dessets-m%C3%A3o-desenhada-patten-sem-costura.jpg?ver=6");
+}
+ main{
+      width: 60%;
+      margin: 0px auto;
+    background-color: hotpink;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      display: flex;
+ }
+ #produtos{
+    width: 80%;
+    background-color: brown;
+    /* display: flex; */
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(209, 207, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+ }
+ .produto{
+    background-color: rgb(236, 33, 209);
+    padding: 5px;
+    display: flex;
+    width: 200px;
+    height: 20px;
+    flex-direction: column ;
+    gap: 10px;
+    align-items: start;
+    border: 3px solid rgb(236, 33, 209);
+    border-radius: 10px;
+ }
+
+.produto img{
+    width: 300px;
+}
