@@ -1,4 +1,4 @@
-const nome = "Mariano"
+const nome = "Yasmin"
 const idade = 16
 const online = true
 const partidas = [2,3,4]
